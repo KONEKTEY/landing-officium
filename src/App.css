@@ -1,0 +1,308 @@
+.App {
+  background: linear-gradient(white, grey,white);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.carousel{
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif
+}
+p{
+font-family: 'Montserrat', sans-serif;
+}
+span{
+   font-family: 'Oswald', sans-serif;
+}
+.Menu{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.logoOfficium{
+  border-bottom:1px solid rgb(180, 180, 180);
+height: 200px;
+width: 250px;
+}
+.cardJob{
+  height: 1500px;
+  display: flex;
+  flex-wrap:wrap;
+width:100%;
+justify-content: space-around;
+}
+.Fire{
+ 
+}
+.card{
+ 
+  width: 27%;
+  height: 400px;
+  margin-: 100px;
+}
+.divIcon{
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+}
+.divIcon div{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+.divIcon div img{
+  width: 32px;
+  height: 32px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  height: 100%;
+}
+
+.Footer{
+  background-color: rgb(255, 255, 255);
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poiret One', cursive;
+  border-top: 1px solid rgb(180, 180, 180);
+  height: 350px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.h1Footer{
+  padding: 15px;
+  letter-spacing: 3px;
+  color:rgb(138, 138, 138);
+  font-size: 50px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.Konektey{
+  margin-left: 10px;
+  
+}
+.divimgCard{
+border-bottom: 1px solid  rgb(233, 233, 233);
+height: 80px;
+width: 100%;  
+background-color:rgb(238, 238, 238);
+}
+.imgCard{
+  height: 50px;
+  width: 50px;
+}
+.divReseau{
+  height: 100px;
+   width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.Icon{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(165, 165, 165);
+  font-size: 40px;
+  transition:font-size 12s;
+     -moz-transition:font-size 12s; 
+     -webkit-transition:font-size 12s;
+     -o-transition:font-size 12s;
+}
+.Icon :hover{
+  color: rgb(68, 68, 68);
+  font-size: 55px;
+}
+.pFooter{
+  letter-spacing: 5px;
+  color: rgb(126, 126, 126);
+}
+.Made{
+  color:rgb(80, 80, 80);
+}
+.h1Footer, .Made, pFooter{
+  margin: 0px;
+}
+.activator{
+  cursor: pointer;
+}
+a:hover{
+  margin: 0;
+  text-decoration: none;
+}
+.divMade{
+  width: 100%;
+}
+
+.card p {
+  text-align: justify;
+}
+Swipe{
+  display: none;
+}
+
+.modal-footer{
+  display: flex;
+  justify-content: space-between;
+}
+/*--------------------FORMAT MOBILE--------------------------*/
+
+@media all and (max-width: 640px) {
+  .App {
+    width: 100%;
+    background: linear-gradient(white, grey,white);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+  }
+  p{
+  font-family: 'Montserrat', sans-serif;
+  }
+  span{
+     font-family: 'Oswald', sans-serif;
+  }
+  .Menu{
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .logoOfficium{
+    border-bottom:1px solid rgb(180, 180, 180);
+  height: 200px;
+  width: 250px;
+  }
+  .carousel{
+    display: flex;
+    flex-direction: column;
+  }
+  .slid{
+display: flex;
+justify-content: center;
+
+  }
+  .card{
+    width: 90%;
+    height: 370px;
+  }
+
+  .divIcon{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  }
+  .divIcon div{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+  .divIcon div img{
+    width: 22px;
+    height: 22px;
+  }
+  .card-content{
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  
+  .Footer{
+    background-color: rgb(255, 255, 255);
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poiret One', cursive;    height: 350px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .h1Footer{
+    padding: 15px;
+    letter-spacing: 3px;
+    color:rgb(138, 138, 138);
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  .Konektey{
+    height: 50px;
+    margin-left: 15px;
+  }
+  .divimgCard{
+  border-bottom: 1px solid  rgb(233, 233, 233); 
+  background-color:rgb(238, 238, 238);
+  }
+  .imgCard{
+    height: 50px;
+    width: 50px;
+  }
+  .divReseau{
+    height: 100px;
+     width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Icon{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(165, 165, 165);
+    font-size: 40px;
+    transition:font-size 12s;
+       -moz-transition:font-size 12s; 
+       -webkit-transition:font-size 12s;
+       -o-transition:font-size 12s;
+  }
+  .Icon :hover{
+    color: rgb(68, 68, 68);
+    font-size: 55px;
+  }
+  .pFooter{
+    letter-spacing: 5px;
+    color: rgb(126, 126, 126);
+  }
+  .Made{
+    font-size: 25px;
+    color:rgb(80, 80, 80);
+  }
+  .h1Footer, .Made, .pFooter{
+    margin: 0px;
+  }
+  .activator{
+    cursor: pointer;
+  }
+  a:hover{
+    margin: 0;
+    text-decoration: none;
+  }
+  .divMade{
+    width: 100%;
+  }
+  
+  .card p {
+    text-align: justify;
+  }
+  .Fire{
+    display: none;
+  }
+  .Swipea{
+    height:40px;
+    width: 40px ;
+    opacity: 0.1;
+  }
+}
