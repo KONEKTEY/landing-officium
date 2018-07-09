@@ -11,6 +11,15 @@ export default class Swipe extends Component{
         data : [
                 {
                     date : 'ASAP',
+                    titre : 'Commercial enseigne publicitaire',
+                    remuneration:'​2K€ brut + primes',
+                    type:'CDI',
+                    lieu:'Jarry, 971',
+                    mission:"Développement du porte-feuilles clients\nDéveloppement des prospects\nConseil auprès des clients\nRéalisation des objectifs commerciaux",
+                    profil:"Compétences :\nFibre commerciale\nConnaissance du secteur de l'enseigne publicitaire\nExpérience :\n2 ans d'expérience dans un secteur similaire",    
+                },
+                {
+                    date : 'ASAP',
                     titre : 'Auditeur Financier',
                     remuneration:'Selon profil',
                     type:'CDI',

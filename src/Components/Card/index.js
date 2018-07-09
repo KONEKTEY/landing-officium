@@ -5,6 +5,7 @@ import Time from '../../Images/time.png';
 import Marker from '../../Images/MarkerMap.png';
 import Contrat from '../../Images/contract.png';
 import Epingle from '../../Images/epingle.png'
+import Swipea from '../../Images/Swipea.png';
 import axios from 'axios';
 
 
@@ -21,12 +22,15 @@ class Card extends Component {
     <div className="divIcon">
    <div className="divImgCard"><img src={Money} alt="money"/><p>{this.props.remuneration}</p></div>
    <div className="divImgCard"><img src={Time} alt="time"/><p>{this.props.date}</p></div>
+   </div>
+   <div className="divIcon">
     <div className="divImgCard"><img src={Marker} alt="marker"/>{this.props.lieu}<p></p></div>
     <div className="divImgCard"><img src={Contrat} alt="contrat"/><p>{this.props.type}</p></div>
     </div>
    
 
     <span className="card-title activator " data-dismiss="modal">En savoir plus...</span>
+    <img src={Swipea} className="Swipea" alt="Swipe"/>
     
   </div>
   <div className="card-reveal">

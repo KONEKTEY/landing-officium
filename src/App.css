@@ -42,7 +42,7 @@ justify-content: space-around;
  
   width: 27%;
   height: 400px;
-  margin-: 100px;
+  margin: 100px;
 }
 .divIcon{
   display: flex;
@@ -148,6 +148,10 @@ a:hover{
 }
 Swipe{
   display: none;
+}
+
+.Swipea{
+  display: none
 }
 
 .modal-footer{
@@ -300,9 +304,13 @@ justify-content: center;
   .Fire{
     display: none;
   }
+
   .Swipea{
+    align-self: center;
+    display: block;
     height:40px;
     width: 40px ;
     opacity: 0.1;
+
   }
 }
