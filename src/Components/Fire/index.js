@@ -108,7 +108,7 @@ export default class Fire extends Component {
             <div className="cardJob">
             {this.state.data.map((el, i)=>{
                 return (
-                    <Card date={el.date} titre={el.titre} modal={"#exampleModal"} remuneration={el.remuneration} type={el.type} lieu={el.lieu}  mission={el.mission}
+                    <Card date={el.date} key={i} titre={el.titre} modal={"#exampleModal"} remuneration={el.remuneration} type={el.type} lieu={el.lieu}  mission={el.mission}
 profil={el.profil} fonctionTitre={()=>{this.getSelectedTitre(el.titre)}} />
                     )
             })}

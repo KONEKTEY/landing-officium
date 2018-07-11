@@ -13,9 +13,8 @@ class Card extends Component {
 
     render() {
         return (
-
-         
-  <div className="card">
+      
+  <div className="card my-5">
   <div className="card-content">
     <span className="card-title grey-text text-darken-4" >{this.props.titre}</span>
 
@@ -48,6 +47,7 @@ class Card extends Component {
 
 
 </div>
+
     
          );
     }

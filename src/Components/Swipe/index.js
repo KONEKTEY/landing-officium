@@ -107,7 +107,7 @@ export default class Swipe extends Component{
             
                 {this.state.data.map((el, i)=>{
                 return (
-                    <div className="slid"><Card date={el.date} titre={el.titre} modal={"#exampleModalMobile"}  remuneration={el.remuneration} type={el.type} lieu={el.lieu}  mission={el.mission}
+                    <div className="slid" key={i}><Card date={el.date} titre={el.titre}  modal={"#exampleModalMobile"}  remuneration={el.remuneration} type={el.type} lieu={el.lieu}  mission={el.mission}
 profil={el.profil} fonctionTitre={()=>{this.getSelectedTitre(el.titre)}} /></div>
                     )
             })}
