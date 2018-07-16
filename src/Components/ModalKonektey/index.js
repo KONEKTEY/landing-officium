@@ -19,7 +19,8 @@ class ModalKonektey extends Component {
   method: 'get',
   headers : {
     'Accept': 'application/x-www-form-urlencoded',
-    'Content-Type' : 'application/x-www-form-urlencoded'
+    'Content-Type' : 'application/x-www-form-urlencoded',
+    //'Content-Security-Policy': 'upgrade-insecure-requests',
     },
   url: 'http://ansavfesa.com/konektey/api-officium/public/index.php',
   params: {
